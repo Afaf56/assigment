@@ -1,0 +1,90 @@
+.backColor {
+  display: flex;
+  justify-content: center;
+
+  background-color: hsl(0, 0%, 95%);
+
+  font-size: 15px;
+  font-family: Lexend Deca;
+}
+
+.flex {
+  display: flex;
+  margin-top: 120px;
+
+  /* flex-direction: row; */
+  /* flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.type {
+  width: 250px;
+  height: 450px;
+
+  padding-top: 35px;
+  padding-left: 25px;
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.color-p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 35px;
+}
+
+.lbl-div {
+  margin-top: 20px;
+  font-size: bold;
+  color: hsl(0, 0%, 95%);
+  /*border: 3px solid black;*/
+  font-family: Big Shoulders Display;
+}
+
+/* properties for buttons*/
+
+#btn1 {
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: hsl(31, 77%, 52%);
+  border: 2px solid hsl(31, 77%, 52%);
+}
+#btn2 {
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(184, 100%, 22%);
+}
+#btn3 {
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(179, 100%, 13%);
+}
+
+/*margin for buttons*/
+#btn1-div {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+#btn2-div {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+#btn3-div {
+  margin-top: 55px;
+  margin-left: 5px;
+}
